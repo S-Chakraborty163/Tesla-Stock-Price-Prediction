@@ -21,24 +21,19 @@ Correlation Studies	Heatmaps	Feature relationships & importance
 </div>
 🧠 Advanced Modeling Pipeline
 <div align="center">
+## 🏗️ Architecture
+### **🔄 Data Processing Pipeline**
 
+| Step | Process | Description |
+|------|---------|-------------|
+| **1** | **📥 Raw Data** | Collect historical Tesla stock data |
+| **2** | **🧹 Data Cleaning** | Handle missing values, outliers |
+| **3** | **⚙️ Feature Engineering** | Create technical indicators & sequences |
+| **4** | **📏 Normalization** | Scale features for neural network input |
+| **5** | **🧠 LSTM Training** | Train deep learning model on sequences |
+| **6** | **📊 Model Evaluation** | Test performance with RMSE, MAE metrics |
+| **7** | **📈 Visualization** | Plot predictions vs actual results |
 
-
-
-
-
-
-Machine Learning Pipeline Flow:
-
-graph LR
-    A[Raw Data] --> B[Data Cleaning]
-    B --> C[Feature Engineering]
-    C --> D[Normalization]
-    D --> E{LSTM Training}
-    E --> F[Model Evaluation]
-    F --> G[Prediction Visualization]
-
-</div>
 📊 Multi-Model Approach
 Traditional ML: Regression models for baseline comparison
 
@@ -46,10 +41,8 @@ Deep Learning: LSTM networks for sequence prediction
 
 Hybrid Models: Combining statistical and neural approaches
 
-🏗️ Architecture
-Tech Stack Pyramid
-<p align="center"> <img src="https://via.placeholder.com/600x300?text=LSTM+Architecture+Diagram" width="600" alt="LSTM Architecture"> </p><div align="center">
-Layer	Technology	Purpose
+🏗️ Architecture: 
+
 Data Layer	yFinance, Pandas	Historical data collection & storage
 Processing Layer	NumPy, Scikit-learn	Feature engineering & normalization
 Model Layer	PyTorch LSTM	Deep learning predictions
@@ -74,21 +67,19 @@ Dataset Statistics:
 
 tesla-stock-prediction/
 │
+
 ├── 📊 data_analysis.ipynb 
+
 ├── 🧠 tesla stockprice prediction.ipynb 
-├── 📈 tesla ml.ipynb     
-├── 📁 data/
-│   └── TESLA.csv                 
-│
-├── 📁 models/
-│   └── tesla_stock_pred_LSTM.ipynb          
-│
-├── 📁 images/
-│   ├── heatmap 
-│   └── trends
-│   └── misc.
-│
+
+├── 📈 tesla ml.ipynb  
+
+├── 🧠 tesla_stock_pred_LSTM.ipynb
+
+├── 📁 data/ TESLA.csv 
+
 ├── 📄 requirements.txt 
+
 ├── 📄 README.md  
 └── 📄 LICENSE                   
 
