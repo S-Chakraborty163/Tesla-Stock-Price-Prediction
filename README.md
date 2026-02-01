@@ -74,22 +74,32 @@ Dataset Statistics:
 
 tesla-stock-prediction/
 │
-├── 📊 data_analysis.ipynb         
-├── 🧠 tesla stockprice prediction.ipynb        
-├── 📈 tesla ml.ipynb         
+├── 📊 data_analysis.ipynb 
+
+├── 🧠 tesla stockprice prediction.ipynb 
+
+├── 📈 tesla ml.ipynb     
+
 ├── 📁 data/
+
 │   └── TESLA.csv                 
 │
 ├── 📁 models/
+
 │   └── tesla_stock_pred_LSTM.ipynb          
 │
 ├── 📁 images/
-│   ├── heatmap                 
-│   └── trends    
+
+│   ├── heatmap 
+
+│   └── trends
+
 │   └── misc.
 │
-├── 📄 requirements.txt           
-├── 📄 README.md                  
+├── 📄 requirements.txt 
+
+├── 📄 README.md  
+
 └── 📄 LICENSE                   
 
 
