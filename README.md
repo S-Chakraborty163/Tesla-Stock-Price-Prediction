@@ -11,14 +11,7 @@ Leveraging deep learning to forecast Tesla stock prices using historical data an
 </div>
 This project implements a sophisticated Long Short-Term Memory (LSTM) neural network to predict Tesla (TSLA) stock prices. By combining traditional machine learning techniques with deep learning architectures, we analyze historical patterns and forecast future price movements with remarkable accuracy.
 
-✨ Key Features:
-🔍 Comprehensive Data Analysis
-<div align="center">
-Analysis Type	Tools Used	Insights Gained
-Trend Analysis	Matplotlib, Seaborn	Price patterns over 14+ years
-Statistical Profiling	Pandas, NumPy	Volatility, returns, distributions
-Correlation Studies	Heatmaps	Feature relationships & importance
-</div>
+
 🧠 Advanced Modeling Pipeline
 <div align="center">
 ## 🏗️ Architecture
@@ -39,7 +32,6 @@ Traditional ML: Regression models for baseline comparison
 
 Deep Learning: LSTM networks for sequence prediction
 
-Hybrid Models: Combining statistical and neural approaches
 
 🏗️ Architecture: 
 
